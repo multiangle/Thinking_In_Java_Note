@@ -6,6 +6,7 @@ package chap8.demo.pro1;
 import static net.mindview.util.Print.*;
 
 public class Circle extends Shape {
+    @Override
     public void draw() { print("Circle.draw()"); }
     public void erase() { print("Circle.erase()"); }
 } ///:~
