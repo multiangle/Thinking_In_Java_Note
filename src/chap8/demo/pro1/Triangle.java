@@ -3,9 +3,6 @@ package chap8.demo.pro1;
 /**
  * Created by multiangle on 2016/4/18.
  */
-import static net.mindview.util.Print.*;
 
 public class Triangle extends Shape {
-    public void draw() { print("Triangle.draw()"); }
-    public void erase() { print("Triangle.erase()"); }
 } ///:~
